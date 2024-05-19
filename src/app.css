@@ -1,0 +1,20 @@
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .side-by-side {
+    display: flex;
+    gap: 20px; /* Optional: space between the two components */
+  }
+  
+  .side-by-side > div {
+    flex: 1; /* Ensure both components take equal space */
+  }
+  
+  @media (max-width: 768px) {
+    .side-by-side {
+      flex-direction: column;
+    }
+  }
+  
