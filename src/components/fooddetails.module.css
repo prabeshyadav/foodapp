@@ -1,9 +1,39 @@
-.foodContent{
-    padding: 16px;
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-size: 16px;
-    color: #333;
+.foodContent {
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+}
+.heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
 
+.recepiImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.recepiDetails {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.recepiInstuctions {
+  padding: 0%;
+  border-radius: 5px;
+  color: #adaab0;
+}
+
+recepiInstuctions ol {
+  margin-left: 10px;
+}
+
+.recepiInstuctions li {
+  list-style: none;
+  margin: 10px;
 }
